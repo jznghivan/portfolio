@@ -1,7 +1,6 @@
 export default function HomePage() {
   return (
     <main className="min-h-screen flex flex-col items-center px-8 sm:px-12 lg:px-20 py-10 bg-white text-black">
-      {/* Navigation */}
       <nav className="w-full max-w-6xl flex justify-between items-center mb-12">
         <h1 className="text-2xl font-bold">Van Nguyen</h1>
         <div className="space-x-6">
@@ -10,12 +9,11 @@ export default function HomePage() {
         </div>
       </nav>
 
-      {/* Main Section */}
       <section className="text-center max-w-3xl w-full">
         <img
           src="/IMG_1711.jpeg"
           alt="Tiger"
-          className="mt-6 w-48 h-auto rounded-xl shadow mx-auto"
+          className="mt-13 w-69 h-auto"
         />
 
         <h2 className="text-4xl font-bold mb-4 mt-6">Hi, I'm Van</h2>
