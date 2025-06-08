@@ -1,6 +1,6 @@
 <div className="border-b pb-6 flex flex-col md:flex-row gap-6 items-start">
   <img
-    src="/Image (2).jpg"
+    src="/mirror.jpg"
     alt="Mirror Mirror screenshot"
     className="w-full md:w-1/3 rounded-xl shadow"
   />
