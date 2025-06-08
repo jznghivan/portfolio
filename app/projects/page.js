@@ -7,7 +7,7 @@ export default function ProjectsPage() {
         <div className="border-b pb-6">
           <div className="flex flex-col md:flex-row gap-6 items-start">
             <img
-              src="/mirror.png"
+              src="/mirror.jpg"
               alt="Mirror Mirror screenshot"
               className="w-full md:w-1/3 shadow"
             />
