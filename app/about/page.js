@@ -16,6 +16,12 @@ export default function AboutPage() {
       <p className="text-gray-700 text-lg max-w-3xl mt-6 leading-relaxed">
         Outside of school, I like going to the zoo to see tigers, I also run a small vintage toy business.
       </p>
+
+      <img
+        src="/Image (3).jpg"
+        alt="Van Nguyen"
+        className="mt-10 w-64 rounded-xl shadow-lg"
+      />
     </main>
   );
 }
