@@ -1,28 +1,22 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Source_Code_Pro } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const sourceCodePro = Source_Code_Pro({
+  variable: "--font-source-code-pro",
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: ["400", "700"], // Regular and bold
 });
 
 export const metadata = {
-  title: "Van Nguyen's Portfolio",
-  description: "Van's portfolio",
+  title: "Van Nguyen Portfolio",
+  description: "Showcasing tigers",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <div className="min-h-screen bg-white text-gray-800">
-          {children}
-        </div>
+      <body className={`${sourceCodePro.variable} font-mono bg-white text-black`}>
+        <div className="min-h-screen">{children}</div>
       </body>
     </html>
   );
