@@ -1,6 +1,13 @@
-<div className="border-b pb-6 flex flex-col md:flex-row gap-6 items-start">
+export default function ProjectsPage() {
+  return (
+    <main className="min-h-screen px-8 sm:px-12 lg:px-20 py-10 bg-white text-black">
+      <h1 className="text-4xl font-bold mb-8">Projects</h1>
+
+      <section className="space-y-12">
+        <div className="border-b pb-6">
+          <div className="border-b pb-6 flex flex-col md:flex-row gap-6 items-start">
   <img
-    src="/mirror.jpg"
+    src="/mirror.png"
     alt="Mirror Mirror screenshot"
     className="w-full md:w-1/3 rounded-xl shadow"
   />
