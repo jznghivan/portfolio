@@ -13,7 +13,7 @@ export default function HomePage() {
         <img
           src="/IMG_1711.jpeg"
           alt="Tiger"
-          className="mt-10 w-80 h-auto shadow"
+          className="mt-10 w-80 h-auto shadow mx-auto"
         />
 
         <h2 className="text-4xl font-bold mb-4 mt-6">Hi, I'm Van</h2>
