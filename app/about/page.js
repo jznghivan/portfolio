@@ -20,7 +20,7 @@ export default function AboutPage() {
       <img
         src="/email.jpg"
         alt="Van Nguyen"
-        className="mt-10 w-64 rounded-xl shadow-lg"
+        className="mt-25 w-69 rounded-xl"
       />
     </main>
   );
