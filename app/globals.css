@@ -24,7 +24,7 @@ body {
 
 /* Optional: set consistent link styling */
 a {
-  color: black;
+  color: none;
   text-decoration: none;
 }
 
